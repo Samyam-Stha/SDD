@@ -137,6 +137,34 @@ header h1 {
   margin: 10px 0 0;
   font-size: 16px;
 }
+.expenses-summary {
+  margin-bottom: 20px;
+}
+.expense-input,
+.expense-input h3 {
+  margin-bottom: 20px;
+}
+.expense-input input {
+  height: 35px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  outline: none;
+}
+.expense-input select {
+  height: 35px;
+  border-radius: 10px;
+  padding: 0px 8px;
+  border: 1px solid black;
+  outline: none;
+}
+.expense-input button {
+  width: 200px;
+  height: 40px;
+  background-color: rgba(32, 121, 255, 0.89);
+  border: none;
+  border-radius: 10px;
+}
 
 .auto-invest-toggle {
   display: flex;
@@ -195,9 +223,9 @@ header h1 {
 
 table {
   width: 100%;
-  border-collapse: collapse; /* Ensures that borders are merged between cells */
+  border-collapse: collapse;
+  /* Ensures that borders are merged between cells */
 }
-
 table,
 th,
 td {
@@ -206,8 +234,9 @@ td {
 
 th,
 td {
-  padding: 10px; /* Space inside cells */
-  text-align: left; /* Align text to the left */
+  padding: 20px; /* Space inside cells */
+  text-align: left;
+  border-radius: 10px; /* Align text to the left */
 }
 
 thead {
@@ -216,6 +245,15 @@ thead {
 
 thead th {
   font-weight: bold; /* Make header text bold */
+}
+
+tbody button {
+  border: none;
+  text-decoration: underline;
+  color: #e55347;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
 }
 
 /* Styling for chart container */

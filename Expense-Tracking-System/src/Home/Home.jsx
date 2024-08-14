@@ -270,7 +270,7 @@ const Home = () => {
             {allCategories.map((category) => (
               <div key={category} className="category-summary">
                 <h4>{category.charAt(0).toUpperCase() + category.slice(1)}</h4>
-                <p>Total: Rs {groupedExpenses[category].toFixed(2)}</p>
+                <p>Rs {groupedExpenses[category].toFixed(2)}</p>
               </div>
             ))}
           </div>
